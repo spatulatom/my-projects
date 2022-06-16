@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>My website</title>
+        <link rel="stylesheet" href="./styles/fullpage.min.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/main-nav.css">
+        <link rel="stylesheet" href="./styles/typewriter-effect.css">
+        <link rel="stylesheet" href="./styles/page-3.css">
+        <link rel="stylesheet" href="./styles/button.css">
+        <!-- <link rel="stylesheet" href="./arrows-direction.css"> -->
+        <link rel="stylesheet" href="./styles/contact-form.css">
+        <link rel="stylesheet" href="./styles/social-media-icons.css">
+        <link rel="stylesheet" href="./styles/coursor-effect.css">
+        <link rel="stylesheet" href="./styles/modal-and-mobile-nav.css">
+        <link rel="stylesheet" href="./styles/contact-form.css">
+        <link rel="stylesheet" href="./styles/reveal-on-scroll.css">
+      
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>My website</title>
+        
+    </head>
+    <body>
+      <div class="cursor"></div>
+      <div class="backdrop"></div>
+      <header class="main-header">
+         
+        <!-- mobile nav (check for css: modal-and-mobile-nav.css): -->
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+        
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+              <a href="#" class="link current">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#two" class="link">About</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#three" class="link">Projects</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#four" class="link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- main nav (for css see: main-nav.css): -->
+        <div class="menu-container">
+          <div class="menu-items">
+            <div class="left-panel">
+              <a href="#" class="menu-item bigger">
+                <span>
+                  <i class="fa-solid fa-house"></i>
+                </span>
+              </a>
+              <a href="#two" class="menu-item bigger">
+                <span>
+                  <i class="fa-solid fa-user"></i>
+                </span>
+              </a>
+            </div>
+            <div class="right-panel">
+              <a href="#three" class="menu-item bigger">
+                <span>
+                  <i class="fa-solid fa-briefcase"></i>
+                </span>
+              </a>
+              <a href="#four" class="menu-item bigger">
+                <span>
+                  <i class="fa-solid fa-envelope-open"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="toggle-btn bigger">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </header>
+      
+      <!-- for full.page.min.js/css we need to grab the whole page into id="fullpage" and 
+      then its srollable parts into elements with class="section":-->
+      <div id="fullpage">
+        <section class="section">
+          
+          <div class="page page--page1" id="one">     
+            <div class="page__element-rotated">
+            </div> 
+            
+            <div class="page__container">
+              <div class="text-container"> 
+
+                <!-- typewriter effect (for css: typewriter-effect.css) -->
+                <div class="text-container__box text-container__box--one bigger"> </div>
+                <div class=" text-container__box text-container__box--two css-typing">
+                  <h2 class="css-typing__header">Welcome to my world</h2>
+                  <p class="css-typing__1">Typed text 1</p>
+                  <p class="css-typing__2">Typed text 2 Longer</p>
+                  <p class="css-typing__3">Typed text 3</p>
+                  
+                  <!-- button (for css: button.css) -->
+                  <a href="#two" type="download" class="button mobile bigger" style="color: white" href="#" role="button">
+                    <span>MORE ABOUT ME</span>
+                    <div class="icon">
+                      <i class="fa-solid fa-angles-right fa-lg"></i>
+                    </div>
+                  </a>
+                  
+                  <!-- social media )for css: social-media.css-->
+                  <ul class="wrapper">
+                    <li class="icon github bigger">
+                      <span class="tooltip">Github</span>
+                      <span><i class="fab fa-github"></i></span>
+                    </li>
+                    <li class="icon instagram bigger">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                    <li class="icon facebook bigger">
+                      <span class="tooltip">Facebook</span>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section">
+          <div class="page page--page2" id="two">
+            <div class="page__container reveal fade-bottom">
+              <div class="text-container">
+                <div class="text-container__box">
+                  <h3>Section Text</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, ut?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis?
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, veritatis!
+                  </p>
+                </div>
+                <div class="text-container__box">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, ut?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, error.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, veritatis!
+                   
+                  </p>
+                </div>
+                
+                <div class="text-container__box">
+                  <p>
+                    Lorem ipsum dolor sit amet 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, maiores.lorem10
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, rem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, placeat!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, deleniti!
+                  </p>
+                </div>
+              </div>
+              
+              <!-- button (for css see: button.css): -->
+              <div class="button-background bigger">
+                <a href="./downloads/samplePdf.pdf" type="download" class="button" style="color: white" href="#" role="button">
+                  <span>DOWNLOAD CERTS</span>
+                  <div class="icon">
+                    <i class="fa-solid fa-sync fa-lg fa-spin"></i>
+                    <!-- <i class="fa-solid fa-download"></i> -->
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="page page--page3" id="three">
+
+            <!-- modals showing after clicking on project box ( for css: modal-and-mobile.css): -->
+            <div class="modal modal--two">
+              <h1 class="modal__title">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, voluptatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, deleniti.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, dolor.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, magnam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui.
+              </h1>
+              <div class="modal__actions bigger">
+              <!-- <a href="start-hosting/index.html" class="modal__action">Yes!</a> -->
+                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+            
+            <div class="modal modal--three">
+              <h1 class="modal__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quae.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, minus.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, repudiandae.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, ab!
+              </h1>
+              <div class="modal__actions bigger">
+                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+
+            <div class="modal modal--four">
+              <h1 class="modal__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, debitis.lorem10
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iste.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consequatur.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, veniam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi.
+              </h1>
+              <div class="modal__actions bigger">
+                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+            
+            <div class="modal modal--five">
+              <h1 class="modal__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nihil!lorem10
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, perferendis.lorem1
+              </h1>
+              <div class="modal__actions bigger">
+                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+            
+            <div class="modal modal--six">
+              <h1 class="modal__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, culpa!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, mollitia.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, tenetur!
+              </h1>
+              <div class="modal__actions bigger">
+                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+            
+
+            <!-- project's boxes (for css check: page3.css): -->
+            <div class="page__container ">
+              <h2>Projects</h2>
+              <div class="text-container">
+                <div class="image-box image-box--one reveal fade-left bigger" >
+                  <a href="#main-project">
+                    <span class="image-box__text">MAIN PROJECT</span>
+                  </a>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-3.jpg">
+                  </div>
+                </div>
+                <div class="image-box image-box--two reveal fade-left bigger" >
+                  <span class="image-box__text">PROJECT</span>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-2.jpg">
+                  </div>
+                </div>
+                <div class="image-box image-box--three reveal fade-left bigger" >
+                  <span class="image-box__text">PROJECT</span>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-5.jpg">
+                  </div>
+                </div>
+              </div>
+              <div class="text-container">
+                <div class="image-box image-box--four reveal fade-left bigger" >
+                  <span class="image-box__text">PROJECT</span>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-6.jpg">
+                  </div>
+                </div>
+                <div class="image-box image-box--five reveal fade-left bigger" >
+                  <span class="image-box__text">PROJECT</span>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-7.jpg">
+                  </div>
+                </div>
+                <div class="image-box image-box--six reveal fade-left bigger" >
+                  <span class="image-box__text">PROJECT</span>
+                  <div class="image-box__cover">
+                    <img class="image" src="./images/project-9.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section">
+          <div class="page page--page4" id="main-project">
+            <div class="page__container">
+              <div class="text-container reveal fade-right">
+                <div class="text-container__box">
+                  <h3>MAIN PROJECT</h3>
+                  <!-- <img src="./images/project-3.jpg" class="image"> -->
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                  </p>
+                  <!-- <div class="arrows">
+                    <a href="#three" class="arrow arrow1">
+                      <i class="fa-solid fa-angles-left fa-lg"></i>
+                    </a>
+                    <a href="#five" class="arrow arrow2">
+                      <i class="fa-solid fa-angles-right fa-lg"></i>
+                    </a>
+                  </div> -->
+                </div>
+                <div class="text-container__box">
+                  <!-- <img src="./images/project-3.jpg" class="image"> -->
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                  </p>
+                </div>
+                <div class="text-container__box">
+                  <!-- <img src="./images/project-3.jpg" class="image"> -->
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                  </p>
+                </div>
+              </div>
+              <!-- button (for css: button.css): -->
+              <a href="#three" type="download" class="button mobile bigger reveal fade-right" style="color: white" href="#" role="button">
+                <span>BACK TO PROJECTS</span>
+                <div class="icon">
+                  <i class="fa-solid fa-angles-left fa-lg"></i>
+                </div>
+              </a>
+            </div>
+            </div>
+          </section>
+          <section class="section">
+            <div class="page page--page5" id="four">
+              <div class="page__container reveal fade-left">
+                <h2>Contact with Me</h2>
+                <div class="text-container">
+                  <div class="text-container__box">
+                  <h3>Name Surname</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                  </p>
+                  <p>Phone: +1234567890</p>
+                  <p>Email: tom@mail.com</p>
+                  <p>FIND ME:</p>
+
+                  <!-- scoal media icons( for css: social-media-icons.css): -->
+                  <ul class="wrapper">
+                    <li class="icon github bigger">
+                      <span class="tooltip">Github</span>
+                      <span>
+                        <i class="fab fa-github"></i>
+                      </span>
+                    </li>
+                    <li class="icon instagram bigger">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                    <li class="icon facebook bigger">
+                      <span class="tooltip">Facebook</span>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <span><i class="fab fa-twitter"></i></span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div class="text-container__box">
+                  <h3>Contact Form</h3>
+                  <!-- <form class="form" action="http://localhost:5000/contact-form" method="POST">      -->
+
+                    <!-- contact form (for css: contact-form.css) -->
+                    <form class="form bigger">
+                      <div class="form__result">
+                        <span class="form__display-message">Fill up the form below to send me a message.</span>
+                      </div> 
+                      <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
+                      <input name="email" type="email" class="feedback-input" placeholder="Email" required/>
+                      <input name="email2" type="email" class="feedback-input" placeholder="Confirm email" required/>
+                      <input name="subject" type="text" class="feedback-input" placeholder="Subject" required/>
+                      <textarea name="text" class="feedback-input" placeholder="Msg" maxlength="1000" required></textarea>
+                      <input type="submit"/>
+                    </form>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+        
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+                integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+                integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+                crossorigin="anonymous"></script>  -->
+                
+        <script src="./scripts/fullpage.min.js"></script>
+        <script src="./scripts/fullpage.js"></script>
+        <script src="./scripts/coursor-effect.js"></script>
+        <script src="./scripts/modal-and-mobile-nav.js"></script>
+        <script src="./scripts/contact-form.js"></script>
+        <script src="./scripts/reveal-on-scroll.js" async defer></script>
+        <script src="./scripts/main-nav.js"></script>
+        
+    </body>
+</html>

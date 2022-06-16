@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+.menu-container{
+  position:fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 199;
+}
+
+
+.menu-container .menu-items{
+  padding:9px 10px;
+  background-color: #CC6666;
+  border: white solid 1px;
+  /* background: transparent; */
+  display:flex;
+  justify-content:space-between;
+  gap:110px;
+  border-radius:100px;
+  box-shadow:0 10px 20px rgba(255,122,0,0.2);
+  transform:scaleX(0);
+  transition:transform 0.3s;
+}
+
+.menu-container.show .menu-items{
+  /* here is the 'trick' so the panel is scaled to 
+  0 on a Y axis */
+  transform:scaleX(1);
+}
+
+.left-panel,
+.right-panel{
+  display:flex;
+}
+
+.menu-items .menu-item{
+  text-decoration:none;
+  display:inline-block;
+  opacity:0;
+  /* it assumes transform of 0 for any transform properites,
+  so then when on hover we call scale() that one gets aciveted
+  but */
+  transition:opacity 0.3s 0.2s;
+}
+.menu-items span{
+  color:#fff;
+  font-size:22px;
+  text-shadow:0 1px 2px rgba(0,0,0,0.2);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-container .menu-item{
+  padding-right: 15px;
+} 
+ .menu-container .menu-item{
+   margin: 0px 50px;
+ }
+
+
+
+@media(max-width:1300px){
+  .menu-container .menu-item{
+    margin: 0px 40px;
+  }
+}
+
+
+ @media(max-width:900px){
+   .menu-container {
+     display:none;
+   }
+ }
+
+.menu-container.show .menu-item{
+  opacity:1;
+}
+
+
+
+.menu-items .menu-item .fa-solid{
+  color: #212428;
+  font-size:22px;
+  text-shadow:0 1px 2px rgba(0,0,0,0.2);
+  transition: color 0.2s linear;
+  transform: scale(0.8);
+  transition: all 0.4s linear;
+}
+.menu-items .menu-item:hover .fa-solid{
+  transform: scale(1.1);
+  color: white;
+  /* color:rgb(255, 1, 79); */
+}
+
+.menu-items .menu-item .fa-solid.active{
+  transform: scale(1.1);
+  color: white;
+}
+
+
+.menu-container .toggle-btn{
+  width:60px;
+  height:60px;
+  background-color: white;
+  color: #212428;
+  box-shadow:0 0 30px rgba(0,0,0,0.3);
+  font-size:32px;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  cursor:pointer;
+  opacity: 1;
+}
+
+.menu-container .toggle-btn i{
+  transition:transform 0.3s;
+}
+
+.menu-container.show .toggle-btn i{
+  transform:rotate(45deg);
+}
