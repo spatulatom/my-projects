@@ -96,11 +96,15 @@
       <div id="fullpage">
         <section class="section">
           
+          <!-- we give this "page" class display of flex so we can use justify-content
+          and align-items with value 'center' -->
           <div class="page page--page1" id="one">     
             <div class="page__element-rotated">
             </div> 
-            
+            <!-- we need this another general container 'page_container' as we want
+            headers out of 'text-container' styling -->
             <div class="page__container">
+              <!-- 'text-container' is going to be flex container -->
               <div class="text-container"> 
 
                 <!-- typewriter effect (for css: typewriter-effect.css) -->
@@ -112,7 +116,7 @@
                   <p class="css-typing__3">Typed text 3</p>
                   
                   <!-- button (for css: button.css) -->
-                  <a href="#two" type="download" class="button mobile bigger" style="color: white" href="#" role="button">
+                  <a href="#two" type="download" class="button button--mobile bigger" style="color: white" href="#" role="button">
                     <span>MORE ABOUT ME</span>
                     <div class="icon">
                       <i class="fa-solid fa-angles-right fa-lg"></i>
@@ -247,7 +251,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, tenetur!
               </h1>
               <div class="modal__actions bigger">
-                <button class="modal__action modal__action--negative" type="button"><i class="fa-solid fa-xmark"></i></button>
+                <button class="modal__action" type="button"><i class="fa-solid fa-xmark"></i></button>
               </div>
             </div>
             
@@ -315,14 +319,6 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
                   </p>
-                  <!-- <div class="arrows">
-                    <a href="#three" class="arrow arrow1">
-                      <i class="fa-solid fa-angles-left fa-lg"></i>
-                    </a>
-                    <a href="#five" class="arrow arrow2">
-                      <i class="fa-solid fa-angles-right fa-lg"></i>
-                    </a>
-                  </div> -->
                 </div>
                 <div class="text-container__box">
                   <!-- <img src="./images/project-3.jpg" class="image"> -->

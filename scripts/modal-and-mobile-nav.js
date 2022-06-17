@@ -4,17 +4,17 @@ let mobileNavItems = document.querySelectorAll(".mobile-nav__item a")
 let backdrop = document.querySelector(".backdrop");
 
 let modal;
-var modalTwo = document.querySelector(".modal.modal-two");
-var projectTwo = document.querySelector(".project-two");
-var modalThree = document.querySelector(".modal.modal-three");
-var projectThree = document.querySelector(".project-three");
-var modalFour = document.querySelector(".modal.modal-four");
-var projectFour = document.querySelector(".project-four");
-var modalFive = document.querySelector(".modal.modal-five");
-var projectFive = document.querySelector(".project-five");
-var modalSix = document.querySelector(".modal.modal-six");
-var projectSix = document.querySelector(".project-six");
-var modalNoButtons = document.querySelectorAll(".modal__action--negative");
+var modalTwo = document.querySelector(".modal--two");
+var projectTwo = document.querySelector(".image-box--two");
+var modalThree = document.querySelector(".modal--three");
+var projectThree = document.querySelector(".image-box--three");
+var modalFour = document.querySelector(".modal--four");
+var projectFour = document.querySelector(".image-box--four");
+var modalFive = document.querySelector(".modal--five");
+var projectFive = document.querySelector(".image-box--five");
+var modalSix = document.querySelector(".modal--six");
+var projectSix = document.querySelector(".image-box--six");
+var modalNoButtons = document.querySelectorAll(".modal__action");
 
 
 
@@ -45,6 +45,7 @@ toggleButton.addEventListener("click", function() {
   projectTwo.addEventListener("click",()=>{
       modalTwo.style.display = "block";  
       backdrop.style.display = "block";
+      // class open adds opacity
       setTimeout(function() {
         modalTwo.classList.add("open");
         backdrop.classList.add("open");

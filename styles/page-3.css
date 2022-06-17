@@ -20,12 +20,10 @@
     transition: transform 0.3s;
     cursor: pointer;
   }
- 
-  
   
   .image-box__text,
   .image-box__cover{
-      position: absolute;
+    position: absolute;
     margin-top: 3rem;
     display: block;
     width: 100%;
@@ -33,24 +31,7 @@
     color:white;
   }
 
-  @media(max-width: 1050px){
-    /* check that height below and using ay other units
-    didnt allow to save an image proportion when resizng browser */
-    .image-box{
-        width:80vw;
-        height: 60vw;
-    }
-    .image-box__text{
-        margin-top: 6rem;
-    }
-}
-  
-@media(max-width: 500px){
-    .image-box__text{
-        margin-top: 3rem;
-    }
-}
-  .image-box__text {
+.image-box__text {
     height: 0%;
     top: 0;
     line-height: inherit;
@@ -81,5 +62,22 @@
     transform: scale(1.1);
   }
   
- 
+  
+@media(max-width: 900px){
+/* height below when using ay other units
+didnt allow to save an image proportion when resizng browser  */
+.image-box{
+  width:85vw;
+  height: 65vw;
+}
+.image-box__text{
+  margin-top: 6rem;
+}
+}
+  
+@media(max-width: 900px){
+.image-box__text{
+  margin-top: 5rem;
+  }
+}
   
