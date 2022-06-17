@@ -122,6 +122,9 @@ otherwise refrence point changes:  */
 .page__container{
     margin:0;
   }
+.page__container{
+    margin-top: 5rem;
+}
 .page__element-rotated{
     display:none;
   }
