@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Asap", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* main: */
@@ -71,30 +72,37 @@ section:not(section:nth-child(1)){
 }
 
 .page h1 {
-  color: #ff014f;
+  color: rgb(204, 102, 102);
   font-size: 0.8rem;
   margin: 20px;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .page h2 {
-  font-size: 1.5rem;
-  text-align: left;
   text-transform: uppercase;
-}
-.page h2{
+  font-family: 'Courier New', Courier, monospace;
   margin-bottom: 3.5rem;
   text-align: center;
-  color: white;
+  color: rgb(204, 102, 102);
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.page h3 {
+  /* text-transform: uppercase; */
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(204, 102, 102);
+  font-size: 2rem;
+  /* text-align: center; */
+  display: inline-block;
+}
+.text-container__first-word{
+  color: rgb(204, 102, 102);
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
 }
 
 .page__container {
   margin: 100px 100px 50px 100px;
-}
-
-/* extra margin for menu  */
-.page__container:nth-child(1){
-  margin-top: 120px;
 }
 
 /* styling of rotated div 
@@ -129,22 +137,29 @@ otherwise refrence point changes:  */
   }
 .page h1 {
   font-size: 2rem;
-  text-align: center;
-}}
+  text-align: center;}
+
+.page h2{
+margin-bottom: 0;
+}
+}
 
 .text-container {
   display: flex;
 }
+.text-container--page2{
+  flex-direction: column;
+}
 
 .text-container__box{
   margin: 20px 35px;
-  padding: 20px;
+  padding: 20px 30px;
   /* background: #00c2cb; */
   font-size: 1.5rem;
   color: white;
-  /* flex: 1; */
+  flex: 1;
   border-radius: 20px;
-  background: rgb(32,32,32, 0.7);
+  background: rgb(32,32,32, 0.9);
 }
 
 /* we need set width for those two boxes below
@@ -180,17 +195,12 @@ bigger as it types so with no set width the whole element moves */
   margin: 0; */
   width: unset;
 }
-    
+.text-container__box{
+margin: 20px;
+}
 .text-container__box:nth-child(1){
   margin-top: 90px;
 }}
-
-.text-container__box h3 {
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 13px;
-}
 
 .page--page2 .text-container__box{
   color: white;
@@ -198,28 +208,24 @@ bigger as it types so with no set width the whole element moves */
 
 }
 
-.page--page2 .text-container__box h3{
-  color: #ff014f;
-}
-
-.page--page2 .text-container__box .button{
-  margin:auto;
-  margin-bottom: 5rem;
-}
-
 .page--page4 .text-container__box{
   background-color: transparent;
 }
-.page--page4 .text-container__box h3{
-  color:rgb(204, 102, 102);
-}
+
 .page--page4.page__container{
 text-align: center;
+display: block;
 }
 
 
-.page--page5 .text-container__box{
+/* .page--page5 .text-container__box{
   flex: 1;
+} */
+.page--page5 .text-container__box h3{
+  color:rgb(204, 102, 102);
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
 }
 
  /* fullpage side dots */

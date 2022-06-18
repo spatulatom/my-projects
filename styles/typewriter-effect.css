@@ -1,16 +1,15 @@
 .css-typing--mobile{
   display: none;
 }
-.css-typing div{
-  /* text-align: center; */
-  
-}
-.page--page1 .css-typing__header{
+
+.css-typing__header{
   text-align: center;
-  margin: 1rem 0 2rem 0;
-  letter-spacing: 3px;
+  margin: 1rem 0 3rem 0;
+  letter-spacing: 6px;
   color: white;
   font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .css-typing p {
@@ -21,26 +20,30 @@
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    font-weight: bolder;
   }
 
 .css-typing .css-typing__1{
      color: #CC6666;
-      font-size: 3rem;
+      font-size: 3.2rem;
  } 
 
  .css-typing__no-typing{
-  font-size: 1.2rem;
-  font-family: Courier, monospace;
-  /* display: inline-block; */
-  /* width: 40rem; */
+    color: white;
+    font-size: 1.1rem;
+    line-height: 30px;
+    opacity: .9;
+    padding-right: 16%;
+    font-family: Courier, monospace;
+
   }
 
   /* .css-typing p:nth-child(1) { */
     .css-typing__1{
-      width: 30rem;
-    -webkit-animation: type 3s steps(60, end);
-    animation: type 3s steps(60, end);
+      margin-top: 3rem;
+    font-weight: bolder;
+    width: 33rem;
+    -webkit-animation: type 2s steps(60, end);
+    animation: type 2s steps(60, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -50,24 +53,22 @@
     width: 28rem;
     opacity: 0;
     -webkit-animation: type2 3s steps(80, end);
-    animation: type2 3s steps(80, end);
+    animation: type2 2s steps(80, end);
     -webkit-animation-delay: 2s;
-    animation-delay: 3s;
+    animation-delay: 2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
- 
-  
-  /* .css-typing p:nth-child(3) { */
+ /* .css-typing p:nth-child(3) { */
     .css-typing__3{
     width: 33rem;
     opacity: 0;
     padding-right: 0.5rem;
-    -webkit-animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
-    animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation: type3 2s steps(80, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(80, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 2rem;
@@ -83,9 +84,9 @@
     .css-typing p{
       font-size:1.5rem;
       }
-      .css-typing .css-typing__1{
-        color: #CC6666;
-         font-size: 2.3rem;
+    .css-typing .css-typing__1{
+      color: #CC6666;
+      font-size: 2.3rem;
     }
     .css-typing__1,
     .css-typing__3{

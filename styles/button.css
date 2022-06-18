@@ -7,9 +7,10 @@ stay on top, if we want background we need to add this div */
 .button-background{
   position: relative;
   border-radius: 35px;
-  width: 230px;
-  height: 55px;
+  width: 250px;
+  height: 58px;
   background-color:rgb(32,32,32, 0.6);
+  margin:auto;
 }
 .button {
   position: relative;
@@ -18,13 +19,13 @@ stay on top, if we want background we need to add this div */
   margin: auto;
   border-radius: 35px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
-  width: 230px;
-  height: 55px;
+  width: 250px;
+  height: 58px;
   /* line-height: 100px; */
   /* background-color: #34B3A0; */
-  margin-top: 3rem;
-  margin-bottom: 10rem;
-    /* border: white 1px solid; */
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+    border: white 1px solid;
   }
 
 @media(max-width: 900px){
@@ -62,7 +63,7 @@ stay on top, if we want background we need to add this div */
 
 .button .icon {
     left: 0;
-    width: 26%;
+    width: 24%;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     background-color: white;
@@ -85,21 +86,22 @@ stay on top, if we want background we need to add this div */
 .button:hover .icon {
     width: 100%;
   }
- /* .page--page1 .button{
-  margin-top: 4rem;
-  margin-bottom: 8rem;
- } */
-.page--page2 .button-background {
-    margin: auto;
-  }
-.page--page4 .button{
-  margin:auto;
-  margin-bottom: 3rem;
-}
  
+ .page--page1 a.button{
+  margin: 2rem 0 8rem 0;
+  
+}
+
 @media(max-width: 1050px){
-.page--page2 .button-background{
+.button-background{
   margin-bottom: 5rem;
 }
 }
+@media(max-width: 600px){
+  .page--page1 a.button{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+  }
+  }
   
