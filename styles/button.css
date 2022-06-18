@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* since span has an upper z-index for fonnt face to 
 stay on top, if we want background we need to add this div */
@@ -14,14 +15,14 @@ stay on top, if we want background we need to add this div */
   position: relative;
   display: block;
   overflow: hidden;
-  /* margin: auto; */
+  margin: auto;
   border-radius: 35px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   width: 230px;
   height: 55px;
   /* line-height: 100px; */
   /* background-color: #34B3A0; */
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 10rem;
     /* border: white 1px solid; */
   }
@@ -84,7 +85,10 @@ stay on top, if we want background we need to add this div */
 .button:hover .icon {
     width: 100%;
   }
-
+ /* .page--page1 .button{
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+ } */
 .page--page2 .button-background {
     margin: auto;
   }

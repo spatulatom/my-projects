@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -88,7 +88,6 @@ section:not(section:nth-child(1)){
   font-size: 2rem;
 }
 
-
 .page__container {
   margin: 100px 100px 50px 100px;
 }
@@ -133,13 +132,12 @@ otherwise refrence point changes:  */
   text-align: center;
 }}
 
-
 .text-container {
   display: flex;
 }
 
 .text-container__box{
-  margin: 20px;
+  margin: 20px 35px;
   padding: 20px;
   /* background: #00c2cb; */
   font-size: 1.5rem;
@@ -167,7 +165,7 @@ bigger as it types so with no set width the whole element moves */
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
 .text-container__box--two{
-  width: 60vw;
+  width: 55vw;
 }
 
 @media (max-width: 900px) {
@@ -186,7 +184,6 @@ bigger as it types so with no set width the whole element moves */
 .text-container__box:nth-child(1){
   margin-top: 90px;
 }}
-
 
 .text-container__box h3 {
   font-size: 30px;
@@ -224,8 +221,6 @@ text-align: center;
 .page--page5 .text-container__box{
   flex: 1;
 }
-
-
 
  /* fullpage side dots */
 #fp-nav ul li a span, 
