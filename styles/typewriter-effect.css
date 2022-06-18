@@ -1,6 +1,9 @@
+.css-typing--mobile{
+  display: none;
+}
 .css-typing div{
   /* text-align: center; */
-
+  
 }
 .page--page1 .css-typing__header{
   text-align: center;
@@ -22,7 +25,7 @@
   }
 
 .css-typing .css-typing__1{
-     color: blue;
+     color: #CC6666;
       font-size: 3rem;
  } 
 
@@ -74,22 +77,25 @@
     .css-typing--desktop{
       display: none;
     }
+    .css-typing--mobile{
+      display: block;
+    }
     .css-typing p{
       font-size:1.5rem;
       }
       .css-typing .css-typing__1{
         color: #CC6666;
-         font-size: 2rem;
+         font-size: 2.3rem;
     }
     .css-typing__1,
     .css-typing__3{
       width: 20rem;
     }
     .css-typing__2{
-      width: 17rem;
+      width: 14rem;
     }
     .css-typing__3{
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   
