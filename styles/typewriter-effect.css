@@ -1,5 +1,5 @@
 .css-typing div{
-  text-align: center;
+  /* text-align: center; */
 }
 .page--page1 .css-typing__header{
   text-align: center;
@@ -28,7 +28,7 @@
  .css-typing__no-typing{
   font-size: 1.2rem;
   font-family: Courier, monospace;
-  display: inline-block;
+  /* display: inline-block; */
   /* width: 40rem; */
   }
 
@@ -70,8 +70,11 @@
   }
 
   @media(max-width: 600px){
+    .css-typing--desktop{
+      display: none;
+    }
     .css-typing p{
-      font-size:1.1rem;
+      font-size:1.5rem;
       }
       .css-typing .css-typing__1{
         color: #CC6666;
@@ -89,10 +92,7 @@
     }
   }
   
-
-
-  
-  @keyframes type {
+@keyframes type {
     0% {
       width: 0;
     }
