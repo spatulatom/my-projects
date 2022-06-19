@@ -11,7 +11,7 @@
 .link-to-projects:hover{
     color:rgb(204, 102, 102);
   }
-}
+
 
 .link-to-projects .fa-solid:hover{
     transform: scale(1.3);

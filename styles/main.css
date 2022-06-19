@@ -11,6 +11,7 @@
   /* font-family: "Asap", sans-serif;
   font-family: 'Courier New', Courier, monospace; */
   font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
 }
 
 /* main: */
@@ -219,7 +220,8 @@ margin: 20px;
   color: rgb(204, 102, 102);
 } */
 .page--page2 .text-container p::first-line,
-.page--page4 .text-container p::first-line{
+.page--page4 .text-container p::first-line,
+.page--page5 .text-container p::first-line{
   text-indent: 145px;
   color: rgb(204, 102, 102);
 }
@@ -240,10 +242,10 @@ display: block;
   margin-bottom: 1rem;
 }
 
-.text-container_box--my-details{
+.page--page5 .text-container_box--my-details{
   display:flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
 
 }
