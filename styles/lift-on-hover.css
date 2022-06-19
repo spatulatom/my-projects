@@ -1,0 +1,7 @@
+.text-container__box{
+    transition: all .3s ease-in-out
+}
+
+.text-container__box:hover{
+transform: translateY(-7%);
+}

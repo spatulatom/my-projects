@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="./styles/contact-form.css">
         <link rel="stylesheet" href="./styles/reveal-on-scroll.css">
         <link rel="stylesheet" href="./styles/links-to-projects.css">
+        <!-- <link rel="stylesheet" href="./styles/lift-on-hover.css"> -->
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>My website</title>
@@ -111,7 +112,7 @@
                 <div class="text-container__box text-container__box--one bigger"> </div>
                 <div class=" text-container__box text-container__box--two css-typing css-typing--desktop">
                   <h5 class="css-typing__header">Welcome to my site</h5>
-                  <p class="css-typing__1"> ━ I'm Tom Sypula</p>
+                  <p class="css-typing__1"> ━ I'm Tomasz S.</p>
                   <p class="css-typing__2">an aspiring</p>
                   <p class="css-typing__3">fullstack web developer.</p>
                   <div>
@@ -146,7 +147,7 @@
                 </div>
                 <div class=" text-container__box text-container__box--two css-typing css-typing--mobile">
                   <h5 class="css-typing__header">Welcome to my site</h5>
-                  <p class="css-typing__1">I'm Tom Sypula</p>
+                  <p class="css-typing__1">I'm Tomasz S.</p>
                   <p class="css-typing__2">an aspiring</p>
                   <p class="css-typing__3">web developer.</p>
                   <div>
@@ -261,14 +262,12 @@
             
             <div class="modal modal--three">
               <p class="modal__content">
-                This website is acctually itself a vanilla JS project. There are some simple functionalities like for
-                example ball following the cursor or showing modal and background on click. I love how much just 
-                plain javascript can do with the DOM.
-                For the CSS classes I follow (try) BEM convention. 
+                We have three versions af the same TODO app. First of them is written in vanilla JS, 
+                second one is using React.js and finally we have React/Redux app as the third one. 
               </p>
               <p class="modal__content">
-                This website also has its own Node/Express.js backend delpoyed on Heroku, its connected to SendGrid
-                API for sending emails. Email content is also saved on MongoDb.
+               I found it interesting to redo the same app using three different technicues, and I must 
+               say writtnig vanilla javascript was most chalenging.
                </p>
               <p class="modal__content">
                   See
@@ -283,6 +282,12 @@
                 my-website-backend on github
                 <i class="fa-solid fa-angles-right"></i>.
               </a>
+              <p class="modal__content">
+                See
+                <a class="link-to-projects bigger" href= "github">
+                my-website-backend on github
+                <i class="fa-solid fa-angles-right"></i>.
+              </a>
             </p>
               <div class="modal__actions bigger">
                 <button class="modal__action" type="button"><i class="fa-solid fa-xmark"></i></button>
@@ -291,16 +296,10 @@
 
             <div class="modal modal--four">
               <p class="modal__content">
-                We have two project here.
-                The first one is a simple 
-                t-shirts store whrer you can add a t-shirt to a basket, and then check your basket with all the t-shirts 
-                in it, and see the total amount for the potential purchase.
+                We have another TO DO app here, and I am exploring Typescript in React.js. I can clearly see its benefits on bigger
+                proects with a lot of people involved.
               </p>  
               <p class="modal__content">
-                Second is a TODO app where you can add your tasks and then remove them by
-                clickin on a task.
-                I used those simply apps only to explore Redux libra even though I my opinion state in
-                 such small aps is easly managed React.js on its own.
               </p>
               <p class="modal__content">See
                 <a class="link-to-projects bigger" href= "github">
@@ -322,7 +321,7 @@
             
             <div class="modal modal--five">
               <p class="modal__content">
-                We have a TO DO app, and I am using Typescript here in React.js.
+                This only a touch on Sass and attemp to familirizae myself with its concepts. 
               </p>
               <p class="modal__content">
                 See
@@ -376,13 +375,13 @@
                   </div>
                 </div>
                 <div class="image-box image-box--two reveal fade-left bigger" >
-                  <span class="image-box__text">SPOTIFY</span>
+                  <span class="image-box__text">MANAGE SPOTIFY</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-2.jpg">
                   </div>
                 </div>
                 <div class="image-box image-box--three reveal fade-left bigger" >
-                  <span class="image-box__text">VANILLA JS</span>
+                  <span class="image-box__text">TODO APP</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-5.jpg">
                   </div>
@@ -390,13 +389,13 @@
               </div>
               <div class="text-container">
                 <div class="image-box image-box--four reveal fade-left bigger" >
-                  <span class="image-box__text">REDUX</span>
+                  <span class="image-box__text">TYPESCRIPT TODO</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-6.jpg">
                   </div>
                 </div>
                 <div class="image-box image-box--five reveal fade-left bigger" >
-                  <span class="image-box__text">TYPESCRIPT</span>
+                  <span class="image-box__text">SASS</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-7.jpg">
                   </div>
@@ -445,7 +444,9 @@
                     and useContext for sharing certain state across the whole app are sufficient. There are custom
                     hooks built and that is form-hook.js for managing 
                     form data, http-hook.js for all fetcjing requests and auth-hook.js for managing backend login token
-                    throught the rerender cycles.
+                    throught the rerender cycles. As for the styling I am not using nether css modules or stled componets
+                    as I find the first one hard to track iv dev tolls and second one cluter my componets. So i follow (try)
+                    BEM convention.
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-right">
