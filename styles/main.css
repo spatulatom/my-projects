@@ -95,14 +95,9 @@ section:not(section:nth-child(1)){
   /* text-align: center; */
   display: inline-block;
 }
-.text-container__first-word{
-  color: rgb(204, 102, 102);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 2rem;
-}
 
 .page__container {
-  margin: 100px 100px 50px 100px;
+  margin: 50px;
 }
 
 /* styling of rotated div 
@@ -147,13 +142,10 @@ margin-bottom: 0;
 .text-container {
   display: flex;
 }
-.text-container--page2{
-  flex-direction: column;
-}
 
 .text-container__box{
-  margin: 20px 35px;
-  padding: 20px 30px;
+  margin: 1rem;
+  padding: 1rem;
   /* background: #00c2cb; */
   font-size: 1.5rem;
   color: white;
@@ -182,6 +174,10 @@ bigger as it types so with no set width the whole element moves */
 .text-container__box--two{
   width: 55vw;
 }
+.text-container__highlighted-word{
+  color: rgb(204, 102, 102);
+  font-size: 2rem;
+}
 
 @media (max-width: 900px) {
 .text-container{
@@ -205,7 +201,19 @@ margin: 20px;
 .page--page2 .text-container__box{
   color: white;
   font-size: 1.5rem;
-
+}
+.text-container--page2,
+.text-container--page4{
+  flex-direction: column;
+  text-align: left;
+}
+/* .text-container p::first-letter{
+  color: rgb(204, 102, 102);
+} */
+.page--page2 .text-container p::first-line,
+.page--page4 .text-container p::first-line{
+  text-indent: 145px;
+  color: rgb(204, 102, 102);
 }
 
 .page--page4 .text-container__box{
@@ -217,10 +225,6 @@ text-align: center;
 display: block;
 }
 
-
-/* .page--page5 .text-container__box{
-  flex: 1;
-} */
 .page--page5 .text-container__box h3{
   color:rgb(204, 102, 102);
   text-align: center;

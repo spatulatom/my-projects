@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="./styles/modal-and-mobile-nav.css">
         <link rel="stylesheet" href="./styles/contact-form.css">
         <link rel="stylesheet" href="./styles/reveal-on-scroll.css">
-      
+        <link rel="stylesheet" href="./styles/links-to-projects.css">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>My website</title>
@@ -191,30 +191,20 @@
               <div class="text-container text-container--page2">
                 <div class="text-container__box reveal fade-bottom">
                   <p>
-                    <span class="text-container__first-word">I'</span>
-                    m Ireland based, self-thaught fullstack web developer.
-                    I focuse on crafting clean & user-friendly experiences.
+                    I'm Ireland based, self-thaught fullstack web developer.
+                    I focuse on creating clean & user-friendly experiences.
                     My style is rather graphical and minimalistic.
                     I love self-lerning platform like codecademy and Udemy which 
                     make my coding journey completely enjoyable.
-                    Apart from coding, researching and finding those bugs, I lift weights:)
+                    Apart from coding, researching on coding, debugging and testing
+                    routes on Postman, I lift weights:)
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-bottom">
                   <p>
                     I am  attaching below some of the courses certs I have completed:
-                    
                   </p>
                 </div>
-                
-                <!-- <div class="text-container__box reveal fade-bottom">
-                  <p>
-                    Lorem ipsum dolor sit amet 
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, maiores.lorem10
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, rem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, placeat!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, deleniti!
-                  </p>
-                </div> -->
               </div>
               
               <!-- button (for css see: button.css): -->
@@ -346,41 +336,70 @@
           <div class="page page--page4" id="main-project">
             <div class="page__container">
               <h2 class="reveal fade-right">MAIN PROJECT</h2>
-              <div class="text-container">
+              <div class="text-container text-container--page4">
                 <div class="text-container__box reveal fade-right">
                   <!-- <img src="./images/project-3.jpg" class="image"> -->
                   <p>
-                    <h3>MAIN</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                    eius molestiae perferendis eos provident vitae iste.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                    My main project is a <span class="text-container__highlighted-word">MERN</span> web app called 'eventsbook'. Its functionality is somewhere
+                    between social platforms like Facebook and Instagram. I provides create account/login 
+                    interface for the potential user, and password change (you can also create
+                    account with dummy email address but you won't be able to change your password). Then new user
+                    can create an event, and that is 'a new photo': picture with the description and location, 
+                    or 'a new post': only description and location (part of the decription can be an url 
+                    to another http address). Users can modify only their own added 
+                    events (the can not modify events added by other Users) by
+                    clcking button 'CHANGE', or remove them by clickin button 'DELETE'. For every events
+                    every user can see their location on the map by clickin button 'MAP', add comment
+                    and like (or remove like) an event.
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-right">
                   <!-- <img src="./images/project-3.jpg" class="image"> -->
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                    eius molestiae perferendis eos provident vitae iste.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                    Frontend of it is up to date React.js (React 18), delpoyed on firebase;
+                    backend is Node, Express.js and Mongoose connected to MongoDb, deployed on Heroku. Front and backend are both 
+                    using Google Map Platform API for the 'location' functionality (mentioned earlier), 
+                    backend additionaly is using Amazon aws services API for permanentlu storing uploaded photos, 
+                    SendGrid API for changing password/notification email upon creating account.
+                    The app is not using Redux since React own hook like useReducer for complex state
+                    and useContext for sharing certain state across the whole app are sufficient. There are custom
+                    hooks built and that is form-hook.js for managing 
+                    form data, http-hook.js for all fetcjing requests and auth-hook.js for managing backend login token
+                    throught the rerender cycles.
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-right">
+                  <p>See
+                    <a class="link-to-projects bigger" href= "github">
+                      the deployed app on firebase
+                      <i class="fa-solid fa-angles-right"></i>.
+                    </a>
+                  </p>
+                  <p>See
+                    <a class="link-to-projects bigger" href= "github">
+                      eventsbook-frontend on github
+                      <i class="fa-solid fa-angles-right"></i>.
+                    </a>
+                  </p>
+                  <p>See 
+                    <a class="link-to-projects bigger" href= "github">
+                      eventsbook-backend on github 
+                      <i class="fa-solid fa-angles-right"></i>.
+                    </a>
+                  </i>
+                  </br>
+                </div>
+                <div class="text-container__box reveal fade-right">
                   <!-- <img src="./images/project-3.jpg" class="image"> -->
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                    eius molestiae perferendis eos provident vitae iste.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis.
+                    I find this app to be a very exiting project with lots of possible ways for futher 
+                    development. Currently a store section is being added that will provide users
+                     an otion for users to add a product related to the event 
+                    and finish with the (dummy) PayPal payment.
                   </p>
                 </div>
               </div>
               <!-- button (for css: button.css): -->
-              <a href="#three" type="download" class="button mobile bigger" style="color: white" href="#" role="button">
+              <a href="#three" type="download" class="button mobile reveal fade-right bigger" style="color: white" href="#" role="button">
                 <span>BACK TO PROJECTS</span>
                 <div class="icon">
                   <i class="fa-solid fa-angles-left fa-lg"></i>
