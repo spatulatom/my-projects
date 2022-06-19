@@ -1,19 +1,21 @@
 .link-to-projects{
     text-decoration: none;
-    color:rgb(204, 102, 102);
+    color: white;
   }
 
 .link-to-projects.fa-solid{
-    color: rgb(204, 102, 102);
+    color: white;
     transition: all .2s linear;
 }
 
 .link-to-projects:hover{
-    color:white;
+    color:rgb(204, 102, 102);
+  }
 }
 
 .link-to-projects .fa-solid:hover{
     transform: scale(1.3);
-    color: white
+    color:rgb(204, 102, 102);
+  
 }
    

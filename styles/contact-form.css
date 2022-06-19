@@ -31,7 +31,8 @@ select:-webkit-autofill:focus {
 
 .feedback-input {
   color:  rgb(34, 32, 32);
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'JetBrains Mono', monospace;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;

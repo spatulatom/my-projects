@@ -60,7 +60,8 @@
   
   .mobile-nav__item .link {
     font-weight: 700;
-    font-family: "Courier";
+    /* font-family: "Courier"; */
+    font-family: 'JetBrains Mono', monospace;
     font-size: 2rem;
     text-decoration: none;
     color: #212428;
@@ -117,12 +118,15 @@
     border-radius: 10px;
   }
   
-h1.modal__title {
-    text-align: center;
+.modal__content{
+    /* text-align: center; */
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
   }
+.modal__content::first-line {
+    color:#CC6666;
+}
 
 .modal__actions {
   text-align: center;

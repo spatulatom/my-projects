@@ -14,8 +14,9 @@
 
 .css-typing p {
     border-right: .15em solid orange;
-    font-family: "Courier";
-    font-size: 1.8rem;
+    /* font-family: "Courier"; */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
     /* no-wrap is key for typewriting */
     white-space: nowrap;
     overflow: hidden;
@@ -33,13 +34,14 @@
     line-height: 30px;
     opacity: .9;
     padding-right: 16%;
-    font-family: Courier, monospace;
+    /* font-family: Courier, monospace; */
+    font-family: 'JetBrains Mono', monospace;
 
   }
 
   /* .css-typing p:nth-child(1) { */
     .css-typing__1{
-      margin-top: 3rem;
+    margin-top: 6rem;
     font-weight: bolder;
     width: 33rem;
     -webkit-animation: type 2s steps(60, end);
@@ -50,7 +52,7 @@
   
   /* .css-typing p:nth-child(2) { */
     .css-typing__2{
-    width: 28rem;
+    width: 14rem;
     opacity: 0;
     -webkit-animation: type2 3s steps(80, end);
     animation: type2 2s steps(80, end);
@@ -62,7 +64,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 33rem;
+    width: 30rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 2s steps(80, end), blink .5s step-end infinite alternate;
@@ -82,20 +84,20 @@
       display: block;
     }
     .css-typing p{
-      font-size:1.5rem;
+      font-size:1.7rem;
       }
     .css-typing .css-typing__1{
       color: #CC6666;
       font-size: 2.3rem;
     }
-    .css-typing__1,
-    .css-typing__3{
+    .css-typing__1{
       width: 20rem;
     }
     .css-typing__2{
-      width: 14rem;
+      width: 13rem;
     }
     .css-typing__3{
+      width: 15rem;
       margin-bottom: 2rem;
     }
   }
