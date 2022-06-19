@@ -1,9 +1,9 @@
 const formData = document.querySelector(".form");
-const results = document.querySelector(".result .display-message");
+const results = document.querySelector(".form__display-message");
 
 const handleFormSubmit= async(event)=> {
     event.preventDefault();
-    console.log('form', form);
+    // console.log('form', form);
     console.log('results', results);
     
     const data = new FormData(event.target);
@@ -43,7 +43,7 @@ const handleFormSubmit= async(event)=> {
                             console.log(jsonResponse, 'jsonResponse');
                             // results.innerHTML = jsonResponse.message;
                         
-                            form.reset(); 
+                            formData.reset(); 
                             setTimeout(()=>{
                                 results.innerHTML = jsonResponse.message;
                             }, 4000)
