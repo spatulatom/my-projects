@@ -44,8 +44,8 @@
     margin-top: 6rem;
     font-weight: bolder;
     width: 33rem;
-    -webkit-animation: type 2s steps(60, end);
-    animation: type 2s steps(60, end);
+    -webkit-animation: type 3s steps(60, end);
+    animation: type 3s steps(60, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -55,22 +55,22 @@
     width: 14rem;
     opacity: 0;
     -webkit-animation: type2 3s steps(80, end);
-    animation: type2 2s steps(80, end);
+    animation: type2 3s steps(80, end);
     -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 30rem;
+    width: 31rem;
     opacity: 0;
     padding-right: 0.5rem;
-    -webkit-animation: type3 2s steps(80, end), blink .5s step-end infinite alternate;
-    animation: type3 2s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 2rem;
@@ -94,10 +94,10 @@
       width: 20rem;
     }
     .css-typing__2{
-      width: 13rem;
+      width: 12rem;
     }
     .css-typing__3{
-      width: 15rem;
+      width: 16rem;
       margin-bottom: 2rem;
     }
   }
