@@ -180,7 +180,7 @@ bigger as it types so with no set width the whole element moves */
 }
 .text-container__box--two{
   width: 55vw;
-  padding: 5rem
+  padding: 3rem 5rem;
 }
 .text-container__highlighted-word{
   color: rgb(204, 102, 102);

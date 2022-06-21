@@ -41,7 +41,7 @@
 
   /* .css-typing p:nth-child(1) { */
     .css-typing__1{
-    margin-top: 6rem;
+    margin-top: 4rem;
     font-weight: bolder;
     width: 33rem;
     -webkit-animation: type 3s steps(60, end);
