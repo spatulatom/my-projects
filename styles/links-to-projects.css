@@ -2,7 +2,9 @@
     text-decoration: none;
     color: white;
   }
-
+.links-to-projects--typescript{
+  color: rgb(204, 102, 102);
+}
 .link-to-projects.fa-solid{
     color: white;
     transition: all .2s linear;
@@ -11,7 +13,8 @@
 .link-to-projects:hover{
     color:rgb(204, 102, 102);
   }
-
+  .links-to-projects--typescript:hover{
+    color:white}
 
 .link-to-projects .fa-solid:hover{
     transform: scale(1.3);

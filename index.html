@@ -117,7 +117,7 @@
                   <p class="css-typing__3">fullstack web developer:)</p>
                   <div>
                   <span class="css-typing__no-typing">I am delighted to have you here and present you 
-                    with a few of my web development projects. I hope you'll like them!
+                    with a few of my web development projects!
                   </span>
                   </div>
                   
@@ -152,7 +152,7 @@
                   <p class="css-typing__3">web developer:)</p>
                   <div>
                     <span class="css-typing__no-typing">I am delighted to have you here and present you 
-                      with a few of my web development projects. I hope you'll like them!
+                      with a few of my web development projectc!
                     </span>
                     </div>
                   
@@ -196,7 +196,7 @@
                     to improve the aesthetics of my projects. As for my coding education it is owed to Codecademy
                      and Udemy. I love those platforms and, of course, official docs for that extra read-up on that 
                      nitty-gritty stuff. These days apart from coding, 
-                    researching on coding, debugging and testing routes on Postman, I...lift weights:)
+                    researching on coding, debugging and testing routes on Postman, I occasionally... lift weights:)
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-bottom">
@@ -226,21 +226,37 @@
             <!-- modals showing after clicking on project box ( for css: modal-and-mobile.css): -->
             <div class="modal modal--two">
               <p class="modal__content">
-                Manage Spotify is a React.js web app that connects to Spotify API via 'Implicit Gran Flow'. 
-                The implicit grant flow is carried out on the client-side and it does not involve secret keys. 
-                Thus, no need for any server-side code to use it. Access tokens issued are short-lived with no 
-                refresh token to extend them when they expire. The user on login gets an onAuth window and can choose 
-                the way of logging into their own account through this app. The Spotify API allows an array of functionalities. 
-                I am only exploring a few of them, for example, a user can see all their playlist names, see particular playlist 
-                content, add songs to the existing playlists, 
-                add an entirely new playlist to their account.
+                Redux is a React.library for managing 'global' state, and in here I'm using its older version-
+                from before React introduced Hooks ((React v.16.8.0) for building t-shirt store and 
+                up-todate version for building a little todo app.
+              
+               
               </p>
               <p class="modal__content">
-                The app is built with React.js and class-based componets and therefore lifecycle methods as well. 
-                It was interesting to see the older version of React in action. I admit though that introduction of 
-                Hooks (React v.16.8.0) and hence functional components getting a 'full' status have made using 
-                React much more straigtfoward.
-                 Still, it was a great exercise!
+                The t-shirt store is using connect() function for connecting state and action to the store,
+                and to keep the state immutable brace ypurself for a lot of state coping in the reducer.
+              </p>
+              <p class="modal__content">
+                See
+                <a class="link-to-projects bigger" href= "github">
+                the deployed app on heroku
+                <i class="fa-solid fa-angles-right"></i>.
+                </a>
+              </p>
+              <p class="modal__content">
+                  See
+                  <a class="link-to-projects bigger" href= "github">
+                  the code on gihub
+                  <i class="fa-solid fa-angles-right"></i>.
+                </a>
+              </p>
+              <p class="modal__content">
+                The todo app is using Hooks useSelector() and useDispatch() for connecting to the store
+                and Redux Toolkit's createSlice funtion (that uses Immer library) for writing
+                immutable updates in the reducer - so no more tedius 
+                state coping.
+                Both apps are using Redux for saving their state in localStorage to be able to retrieve it
+                after the rerender cycles.
               </p>
               <p class="modal__content">
                 See
@@ -264,10 +280,8 @@
             
             <div class="modal modal--three">
               <p class="modal__content">
-                In this project I have created three apps that have the same functionalities - they are to-do apps, 
-                but are constructed with different logic. The first of them is written in vanilla JS, the second one is 
-                React.js and finally, we have React.js with Redux library used for the third one. 
-                It was a fun challenge, check them out!
+               Vanilla JavaScript project is a todo app with littel animation when todo's are removed
+               and with todo's saved in localStorage.
               </p>
               
               <p class="modal__content">
@@ -297,7 +311,8 @@
 
             <div class="modal modal--four">
               <p class="modal__content">
-                Here we have another to-do app (I know:)), and I am getting my head around a Typescript here in React.js. 
+                Here we have another to-do app (I know:)), and I am exploring a Typescript here in React.js. 
+                I also introducing myslef to css modules that I use here.
                 You are very welcome to check out the code and the app itself.
               </p>  
               <p class="modal__content">
@@ -369,28 +384,28 @@
               <div class="text-container">
                 <div class="image-box image-box--one reveal fade-left bigger" >
                   <a href="#main-project">
-                    <span class="image-box__text">MERN APP</span>
+                    <span class="image-box__text">MERN</span>
                   </a>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-3.jpg">
                   </div>
                 </div>
                 <div class="image-box image-box--two reveal fade-left bigger" >
-                  <span class="image-box__text">MANAGE SPOTIFY</span>
+                  <span class="image-box__text">REDUX</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-2.jpg">
                   </div>
                 </div>
                 <div class="image-box image-box--three reveal fade-left bigger" >
-                  <span class="image-box__text">3 TODO APPS</span>
+                  <span class="image-box__text">VANILLA JS</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-5.jpg">
                   </div>
                 </div>
               </div>
               <div class="text-container">
-                <div class="image-box image-box--four reveal fade-left bigger" >
-                  <span class="image-box__text">TYPESCRIPT TODO</span>
+                <div class="image-box image-box--four reveal fade-left bigger" id="typescript">
+                  <span class="image-box__text">TYPESCRIPT</span>
                   <div class="image-box__cover">
                     <img class="image" src="./images/project-6.jpg">
                   </div>
@@ -443,7 +458,7 @@
                     app seem sufficient. There are custom hooks built and that is form-hook.js for managing form data, http-hook.js 
                     for all fetching requests and auth-hook.js for managing backend login token through the rerender cycles. As for 
                     the CSS styling, 
-                    I follow (try anyways) the BEM convention.
+                    I follow (try anyways) the BEM convention (For example in my <a href="#typescript" class="link-to-projects link-to-projects--typescript">'TYPESCRIPT'</a> project I'm using css.modules for change).
                   </p>
                 </div>
                 <div class="text-container__box reveal fade-right">
@@ -502,9 +517,9 @@
                   <div class="text-container__box text-container_box--my-details reveal fade-left">
                   <h3>My details</h3>
                   <p>
-                    If you wish to get in touch with me you are very welcome to do so through my email or 
-                    through the social media 
-                    platforms below or by using the 'Contact Form'. Thanks!
+                    If you wish to get in touch with me you are very welcome to do so through my email,
+                    social media 
+                    platforms or simply by using the 'Contact Form'. Thanks!
                   </p>
                   <p>My email: tomspatula@gmail.com</p>
 
