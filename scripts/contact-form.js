@@ -19,7 +19,7 @@ const handleFormSubmit= async(event)=> {
                 delete object.email2;       
                 const json = JSON.stringify(object);
                 console.log('json', json);
-                results.innerHTML = 'Plesae wait...'
+                results.innerHTML = 'Please wait...'
                
 
 
@@ -50,7 +50,7 @@ const handleFormSubmit= async(event)=> {
 
 
                             setTimeout(()=>{
-                                results.innerHTML = 'Have a nice day! We will reply to you back soon!'
+                                results.innerHTML = 'You will get a confirmation email from spatulatom@gmail.com. Have a nice day! I will reply to you back soon!'
                             }, 6000)
                         }else{
                             const jsonResponse = await response.json();
