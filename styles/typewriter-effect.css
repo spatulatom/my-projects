@@ -64,7 +64,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 31rem;
+    width: 28.5rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
@@ -97,7 +97,7 @@
       width: 12rem;
     }
     .css-typing__3{
-      width: 16rem;
+      width: 14rem;
       margin-bottom: 2rem;
     }
   }
