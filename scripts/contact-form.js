@@ -16,28 +16,20 @@ const handleFormSubmit= async(event)=> {
                 results.innerHTML='Your email adresses are not matching!'
                 console.log(object, 'object')
         }else{
-                delete object.email2;       
-                const json = JSON.stringify(object);
-                console.log('json', json);
-                results.innerHTML = 'Please wait...'
-               
-
-
+            delete object.email2;       
+            const json = JSON.stringify(object);
+            console.log('json', json);
+            results.innerHTML = 'Please wait...'
             
-
-                 try{
-                     
-                        // const response = await fetch('http://localhost:5000/contact-form',{
-                        const response = await fetch('https://my-contact-form-backend.herokuapp.com/contact-form',{
-                        method: 'POST',
-                
-                        headers: {
-                            "Content-Type": "application/json"
+            try{
+                // const response = await fetch('http://localhost:5000/contact-form',{
+                const response = await fetch('https://my-contact-form-backend.herokuapp.com/contact-form',{
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json"
                         },
                         body: json
                         })
-
-                        
                         if(response.ok){
                             const jsonResponse = await response.json();
                             console.log(jsonResponse, 'jsonResponse');
@@ -59,14 +51,12 @@ const handleFormSubmit= async(event)=> {
                             form.reset();
                         }
                 
-            
-                }catch(error){
-                    
-                    console.log(error,'error');
-                    results.innerHTML = "Something went wrong with the external server, try again in a minute please!";
-                    form.reset(); 
-                 }
-                
-                }}
+            }catch(error){
+                console.log(error,'error');
+                results.innerHTML = "Something went wrong with the external server, try again in a minute please!";
+                form.reset(); 
+                }
+            }
+        }
 
 formData.addEventListener('submit', handleFormSubmit);
