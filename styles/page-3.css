@@ -70,12 +70,12 @@ didnt allow to save an image proportion when resizng browser  */
   width:85vw;
   height: 65vw;
 }
+.image-box:nth-child(1){
+  margin-top: 4rem;
+}
 .image-box__text{
   margin-top: 6rem;
 }
-}
-  
-@media(max-width: 900px){
 .image-box__text{
   margin-top: 5rem;
   }

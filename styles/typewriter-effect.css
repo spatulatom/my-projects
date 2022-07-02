@@ -36,11 +36,11 @@
     padding-right: 16%;
     /* font-family: Courier, monospace; */
     font-family: 'JetBrains Mono', monospace;
-
-  }
+    }
 
   /* .css-typing p:nth-child(1) { */
     .css-typing__1{
+  
     margin-top: 4rem;
     font-weight: bolder;
     width: 33rem;
@@ -52,7 +52,7 @@
   
   /* .css-typing p:nth-child(2) { */
     .css-typing__2{
-    width: 16rem;
+    width: 22rem;
     opacity: 0;
     -webkit-animation: type2 3s steps(80, end);
     animation: type2 3s steps(80, end);
@@ -64,7 +64,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 29.5rem;
+    width: 32rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 3s steps(80, end), blink .5s step-end infinite alternate;
@@ -84,17 +84,20 @@
       display: block;
     }
     .css-typing p{
-      font-size:1.7rem;
+      font-size:1.4rem;
       }
+    .css-typing__no-typing{
+      font-size: 1rem;
+    }
     .css-typing .css-typing__1{
       color: #CC6666;
       font-size: 2.3rem;
     }
     .css-typing__1{
-      width: 20rem;
+      width: 19rem;
     }
     .css-typing__2{
-      width: 14rem;
+      width: 16rem;
     }
     .css-typing__3{
       width: 19rem;

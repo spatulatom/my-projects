@@ -104,7 +104,8 @@ section:not(section:nth-child(1)){
 }
 
 .page__container {
-  margin: 50px;
+  margin: 3rem;
+  margin-top: 7rem;
 }
 
 /* styling of rotated div 
@@ -130,8 +131,6 @@ otherwise refrence point changes:  */
 @media (max-width: 900px) {
 .page__container{
     margin:0;
-  }
-.page__container{
     margin-top: 5rem;
 }
 .page__element-rotated{
@@ -195,16 +194,19 @@ bigger as it types so with no set width the whole element moves */
   display: none;
 }
 
+.text-container__box{
+  margin: .5rem;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
 .text-container__box--two{
   margin: auto;
-  padding: 1rem;
+  margin-bottom: 5rem;
+  padding: .5rem;
   width: 90vw;
 }
-.text-container__box{
-margin: 20px;
-}
 .text-container__box:nth-child(1){
-  margin-top: 90px;
+  margin-top: 3rem
 }}
 
 .page--page2 .text-container__box{
