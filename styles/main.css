@@ -121,8 +121,8 @@ otherwise refrence point changes:  */
   top: 0;
   left: 0;
   height: 180%;
-  background-color: #212428;
-  /* background-color: #CC6666; */
+  /* background-color: #212428; */
+  background-color: #CC6666;
   width: 45vw;
   transform: rotate(-30deg) translate(-10rem,-20rem);
   overflow: hidden;
