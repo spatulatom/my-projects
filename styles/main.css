@@ -202,8 +202,8 @@ bigger as it types so with no set width the whole element moves */
 .text-container__box--two{
   margin: auto;
   margin-bottom: 5rem;
-  padding: .5rem;
-  padding-right: 1rem;
+  padding: 1rem;
+  padding-right: 1.5rem;
   width: 90vw;
 }
 .text-container__box:nth-child(1){
