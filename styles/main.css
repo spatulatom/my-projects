@@ -203,6 +203,7 @@ bigger as it types so with no set width the whole element moves */
   margin: auto;
   margin-bottom: 5rem;
   padding: .5rem;
+  padding-right: 1rem;
   width: 90vw;
 }
 .text-container__box:nth-child(1){
