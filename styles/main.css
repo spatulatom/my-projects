@@ -36,9 +36,10 @@ section:not(section:nth-child(1)){
 .page--page1 {
   position: relative;
   background-color: #212428;
-  background-image: url("../images/keyboard.jpg");
+  background-image: url("../images/desk-sitting.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size:cover;
     /* overflow hiddenfor rotated div not to go into another page or even on
     the margin below */
   overflow: hidden;
@@ -121,8 +122,8 @@ otherwise refrence point changes:  */
   top: 0;
   left: 0;
   height: 180%;
-  /* background-color: #212428; */
-  background-color: #CC6666;
+  background-color: #212428;
+  /* background-color: #CC6666; */
   width: 45vw;
   transform: rotate(-30deg) translate(-10rem,-20rem);
   overflow: hidden;
@@ -178,7 +179,7 @@ bigger as it types so with no set width the whole element moves */
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
 .text-container__box--two{
-  width: 55vw;
+  width: 70vw;
   padding: 3rem 5rem;
 }
 .text-container__highlighted-word{
