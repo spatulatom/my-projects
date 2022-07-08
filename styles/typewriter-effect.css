@@ -54,8 +54,8 @@
     .css-typing__2{
     width: 23rem;
     opacity: 0;
-    -webkit-animation: type2 8s steps(80, end);
-    animation: type2 8s steps(80, end);
+    -webkit-animation: type2 6s steps(80, end);
+    animation: type2 6s steps(80, end);
     -webkit-animation-delay: 8s;
     animation-delay: 8s;
     -webkit-animation-fill-mode: forwards;
@@ -67,10 +67,10 @@
     width: 31rem;
     opacity: 0;
     padding-right: 0.5rem;
-    -webkit-animation: type3 8s steps(80, end), blink .5s step-end infinite alternate;
-    animation: type3 8s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 16s;
-    animation-delay: 16s;
+    -webkit-animation: type3 6s steps(80, end), blink .5s step-end infinite alternate;
+    animation: type3 6s steps(80, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 14s;
+    animation-delay: 14s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 2rem;
@@ -84,7 +84,7 @@
       display: block;
     }
     .css-typing p{
-      font-size:1.4rem;
+      font-size:1.3rem;
       }
     .css-typing__no-typing{
       font-size: 1rem;
@@ -97,7 +97,7 @@
       width: 19rem;
     }
     .css-typing__2{
-      width: 19rem;
+      width: 15rem;
     }
     .css-typing__3{
       width: 19rem;
