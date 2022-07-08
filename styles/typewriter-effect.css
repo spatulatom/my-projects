@@ -64,7 +64,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 27rem;
+    width: 30rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 8s steps(80, end), blink .5s step-end infinite alternate;
