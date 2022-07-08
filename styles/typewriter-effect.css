@@ -43,7 +43,7 @@
   
     margin-top: 4rem;
     font-weight: bolder;
-    width: 38rem;
+    width: 37.5rem;
     -webkit-animation: type 8s steps(60, end);
     animation: type 8s steps(60, end);
     -webkit-animation-fill-mode: forwards;
@@ -54,8 +54,8 @@
     .css-typing__2{
     width: 23rem;
     opacity: 0;
-    -webkit-animation: type2 6s steps(80, end);
-    animation: type2 6s steps(80, end);
+    -webkit-animation: type2 5s steps(80, end);
+    animation: type2 5s steps(80, end);
     -webkit-animation-delay: 8s;
     animation-delay: 8s;
     -webkit-animation-fill-mode: forwards;
@@ -64,13 +64,13 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 30.7rem;
+    width: 31.7rem;
     opacity: 0;
     padding-right: 0.5rem;
-    -webkit-animation: type3 6s steps(80, end), blink .5s step-end infinite alternate;
-    animation: type3 6s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 14s;
-    animation-delay: 14s;
+    -webkit-animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
+    animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 2rem;
@@ -84,7 +84,7 @@
       display: block;
     }
     .css-typing p{
-      font-size:1.3rem;
+      font-size:1.21rem;
       }
     .css-typing__no-typing{
       font-size: 1rem;
@@ -95,13 +95,14 @@
     }
     .css-typing__1{
       width: 19rem;
+      /* margin-bottom: 1rem; */
     }
     .css-typing__2{
-      width: 15rem;
+      width: 14rem;
     }
     .css-typing__3{
       width: 19rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
   }
   
