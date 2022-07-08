@@ -52,7 +52,7 @@
   
   /* .css-typing p:nth-child(2) { */
     .css-typing__2{
-    width: 28rem;
+    width: 23rem;
     opacity: 0;
     -webkit-animation: type2 8s steps(80, end);
     animation: type2 8s steps(80, end);
@@ -64,7 +64,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 30rem;
+    width: 31rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 8s steps(80, end), blink .5s step-end infinite alternate;
