@@ -44,8 +44,8 @@
     margin-top: 4rem;
     font-weight: bolder;
     width: 37.5rem;
-    -webkit-animation: type 8s steps(60, end);
-    animation: type 8s steps(60, end);
+    -webkit-animation: type 5s steps(60, end);
+    animation: type 5s steps(60, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -56,8 +56,8 @@
     opacity: 0;
     -webkit-animation: type2 5s steps(80, end);
     animation: type2 5s steps(80, end);
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -69,8 +69,8 @@
     padding-right: 0.5rem;
     -webkit-animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
     animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 13s;
-    animation-delay: 13s;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 2rem;
