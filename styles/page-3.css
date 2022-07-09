@@ -47,9 +47,9 @@
 
    .image-box__cover .image{
       height: 100%;
-      width: auto;
-
-  }
+      width: 100%;
+      /* object-fit: cover; */
+}
   
   .image-box:hover .image-box__text {
     height: 100%;

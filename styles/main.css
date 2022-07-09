@@ -36,7 +36,9 @@ section:not(section:nth-child(1)){
 .page--page1 {
   position: relative;
   background-color: #212428;
-  background-image: url("../images/desk-sitting.jpg");
+  background-color: white;
+  background-image: linear-gradient(270deg, white 15%, black 85%);
+  /* background-image: url("../images/desk-sitting.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -47,7 +49,7 @@ section:not(section:nth-child(1)){
 
 .page--page2 {
   background-color: #212428;
-  background-image: url("../images/laptop2.jpg"), linear-gradient(270deg, white 5%, black 95%);
+  background-image: url("../images/planks.jpeg"), linear-gradient(270deg, white 5%, black 95%);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: top;
@@ -58,7 +60,9 @@ section:not(section:nth-child(1)){
 .page--page3 {
   background-color: #212428;
   background-image: linear-gradient(270deg, white 5%, black 95%);
-  background-position: top;
+
+  /* filter:grayscale(20%); */
+  background-attachment: fixed;
 }
 
 .page--page4 {
@@ -76,7 +80,7 @@ section:not(section:nth-child(1)){
   background-attachment: fixed;
 }
 
-.page h1 {
+h1 {
   color: rgb(204, 102, 102);
   font-size: 0.8rem;
   margin: 20px;
@@ -84,6 +88,7 @@ section:not(section:nth-child(1)){
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: 'JetBrains Mono', monospace;
 }
+
 .page h2 {
   text-transform: uppercase;
   /* font-family: 'Courier New', Courier, monospace; */
@@ -94,6 +99,11 @@ section:not(section:nth-child(1)){
   font-size: 4rem;
   font-weight: bolder;
 }
+.page--page2 h2{
+  color: white;
+  
+}
+
 .page h3 {
   /* text-transform: uppercase; */
   /* font-family: 'Courier New', Courier, monospace; */
