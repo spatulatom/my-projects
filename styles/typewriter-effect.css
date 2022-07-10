@@ -65,7 +65,7 @@
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 32rem;
+    width: 31.8rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
@@ -74,7 +74,7 @@
     animation-delay: 10s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
   }
 
   @media(max-width: 600px){
@@ -102,7 +102,7 @@
       width: 14rem;
     }
     .css-typing__3{
-      width: 13rem;
+      width: 12.8rem;
       margin-bottom: 1.5rem;
     }
   }
