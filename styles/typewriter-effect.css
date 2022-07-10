@@ -30,7 +30,7 @@
 
  .css-typing__no-typing{
     color: white;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     line-height: 30px;
     opacity: .9;
     padding-right: 16%;
@@ -74,7 +74,7 @@
     animation-delay: 10s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   @media(max-width: 600px){
