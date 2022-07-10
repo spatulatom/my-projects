@@ -42,7 +42,7 @@
     .css-typing__1{
   
     margin-top: 4rem;
-    margin-bottom: 1.1rem;
+    /* margin-bottom: 1.1rem; */
     font-weight: bolder;
     width: 37.5rem;
     -webkit-animation: type 5s steps(60, end);
