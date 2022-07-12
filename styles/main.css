@@ -49,7 +49,7 @@ section:not(section:nth-child(1)){
 
 .page--page2 {
   background-color: #212428;
-  background-image: url("../images/planks.jpeg"), linear-gradient(270deg, white 5%, black 95%);
+  background-image: url("../images/pc.webp"), linear-gradient(270deg, white 5%, black 95%);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: top;
@@ -102,7 +102,7 @@ h1 {
   font-weight: 800;
 }
 .page--page2 h2{
-  color: white;
+  /* color: white; */
   font-weight: 900;
   
 }
