@@ -192,7 +192,7 @@ bigger as it types so with no set width the whole element moves */
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
 }
 .text-container__box--two{
-  width: 70vw;
+  /* width: 70vw; */
   padding: 3rem 5rem;
 }
 .text-container__highlighted-word{

@@ -16,16 +16,16 @@
     border-right: .15em solid orange;
     /* font-family: "Courier"; */
     font-family: 'JetBrains Mono', monospace;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* no-wrap is key for typewriting */
     white-space: nowrap;
     overflow: hidden;
-    color: white;
+    /* color: white; */
   }
 
-.css-typing .css-typing__1{
-     color: #CC6666;
-      font-size: 3.2rem;
+.css-typing__3{
+    color: #CC6666;
+    font-size: 3.2rem;
  } 
 
  .css-typing__no-typing{
@@ -45,8 +45,8 @@
     /* margin-bottom: 1.1rem; */
     font-weight: bolder;
     width: 37.5rem;
-    -webkit-animation: type 5s steps(60, end);
-    animation: type 5s steps(60, end);
+    -webkit-animation: type 0s steps(60, end);
+    animation: type 0s steps(60, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -55,23 +55,23 @@
     .css-typing__2{
     width: 23rem;
     opacity: 0;
-    -webkit-animation: type2 5s steps(80, end);
-    animation: type2 5s steps(80, end);
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation: type2 0s steps(80, end);
+    animation: type2 0s steps(80, end);
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
 
  /* .css-typing p:nth-child(3) { */
     .css-typing__3{
-    width: 31.8rem;
+    width: 31.7rem;
     opacity: 0;
     padding-right: 0.5rem;
     -webkit-animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
     animation: type3 5s steps(80, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     margin-bottom: 1rem;
@@ -85,7 +85,7 @@
       display: block;
     }
     .css-typing p{
-      font-size:1.21rem;
+      /* font-size:1.21rem; */
       }
     .css-typing__no-typing{
       font-size: 1rem;
@@ -103,7 +103,9 @@
       width: 14rem;
     }
     .css-typing__3{
-      width: 12.8rem;
+      color: #CC6666;
+      font-size: 2rem;
+      width: 16.3rem;
       margin-bottom: 1.5rem;
     }
   }
